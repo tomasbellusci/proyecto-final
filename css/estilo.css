@@ -1,0 +1,182 @@
+@media (max-width: 844px) {
+  .contenedor {
+    display: grid;
+    grid-template-areas: "header header" "baner baner" "novedades novedades" "imgnovedades imgnovedades" "suplementos anabolicos" "suplementos entrenamientos" "nosotros nosotros" "contacto contacto" "comunidad comunidad";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40px 300px 200px 300px 200px 200px 400px 500px 500px 500px; }
+  .header {
+    grid-area: header;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 2px 10px 2px black; }
+  .banerBox {
+    grid-area: baner;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../assets/img/pesas3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .novedades {
+    grid-area: novedades;
+    background-color: black;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px 2px black; }
+  .boxImg_novedades {
+    grid-area: imgnovedades;
+    background-image: url(../assets/img/pers.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .boxSuplementos {
+    grid-area: suplementos;
+    background-image: url(../assets/img/sup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-position: 50% 50%; }
+  .boxQuimica {
+    grid-area: anabolicos;
+    background-image: url(../assets/img/arnold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-position: 50% 50%; }
+  .boxPersonalizados {
+    grid-area: entrenamientos;
+    background-image: url(../assets/img/img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-position: 50% 50%; }
+  .boxOfertas {
+    display: none; }
+  .boxNosotros {
+    grid-area: nosotros;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px 2px black; }
+  .imgNosotros {
+    display: none; }
+  .boxContacto {
+    grid-area: contacto; }
+  .boxComunidad {
+    grid-area: comunidad; }
+  /*FIN GRIDS--------------------------------------------------------*/
+  .logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 40px;
+    top: 10px; }
+  .boxnav {
+    display: flex;
+    justify-content: space-around; }
+  .box_nav li {
+    list-style: none;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; }
+  .box_nav li a {
+    text-decoration: none;
+    color: white; }
+  .banerBox h1 {
+    font-size: 40px;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    -webkit-text-stroke: 2px black;
+    position: relative;
+    top: 50px; }
+  .banerBox h2 {
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    -webkit-text-stroke: 2px black; }
+  .icono {
+    display: none; }
+  .novedades h3 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic; }
+  .novedades h4 a {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px; }
+  .novedades h4 a:hover {
+    color: #444444;
+    transition: .5s; }
+  .boxSuplementos:hover {
+    border: solid 5px white; }
+  figcaption {
+    display: none;
+    transition: all .5s;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.541);
+    font-style: italic; }
+  .boxSuplementos:hover > figcaption {
+    display: block;
+    transition: all .5s;
+    cursor: pointer; }
+  .boxQuimica:hover {
+    border: solid 3px #EEEEEE; }
+  .boxQuimica:hover > figcaption {
+    display: block;
+    transition: all .5s;
+    cursor: pointer; }
+  .boxPersonalizados:hover {
+    border: solid 3px #EEEEEE; }
+  .boxPersonalizados:hover > figcaption {
+    display: block;
+    transition: all .5s;
+    cursor: pointer; }
+  .titutlo_nosotros {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic; }
+  .texto_nosotros {
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    width: 300px;
+    text-align: left;
+    bottom: 30px; } }
