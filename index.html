@@ -27,15 +27,15 @@
         <ul class="box_nav">
             <li><a href="">HOME</a></li>
             <li><a href="">PRODUCTOS</a></li>
-            <li><a href="">NOSOTROS</a></li>
-            <li><a href="">CONTACTO</a></li>
+            <li><a href="#seccion_nosotros">NOSOTROS</a></li>
+            <li><a href="#seccion_contacto">CONTACTO</a></li>
         </ul>
     </header>
-    <div class="banerBox">
+    <main class="banerBox">
         <h1>LIBERÁ TU BESTIA INTERIOR</h1>
         <h2>Descubri tu potencial fisíco con nuestros productos.</h2>
         <a href="#seccion_novedades"><img src="https://icongr.am/octicons/chevron-down.svg?size=10&color=ffffff" alt="" class="icono"></a>
-    </div>
+    </main>
     <div class="novedades" id="seccion_novedades">
         <h3>NOVEDADES</h3>
         <H4><a href="">Ver ahora</a></H4>
@@ -54,9 +54,9 @@
         <h2>AHORA EN OFERTA</h2>
         <h3>Hasta 30% off</h3>
         <div class="box_img_nov">
-            <img src="img/creatina_htn.webp" alt="" class="wheyImg img_hover">
-            <img src="img/universal.png" alt=""  class="wheyImg img_hover">
-            <img src="img/whey.png" alt=""  class="wheyImg img_hover">
+            <img src="../assets/img/creatina_htn.webp" alt="" class="wheyImg img_hover">
+            <img src="../assets/img/universal.png" alt=""  class="wheyImg img_hover">
+            <img src="../assets/img/whey.png" alt=""  class="wheyImg img_hover">
         </div>
         <div class="box_texto_ofertas">
             <h4 class="texto_ofertas creatina_pos">Creatina HTN</h4>
@@ -64,7 +64,7 @@
             <h4 class="texto_ofertas scitec_pos ">Whey protein scitec nutrition 2lb</h4>
         </div>
     </div>
-    <div class="boxNosotros">
+    <div class="boxNosotros" id="seccion_nosotros">
         <h2 class="titutlo_nosotros">NOSOTROS</h2>
         <p class="texto_nosotros">
             Somos una empresa dedicada pura y exclusivamente a comercializar suplementos de alta calidad para mejorar el rendimiento de nuestros atletas.
@@ -73,22 +73,22 @@
         </p>
     </div>
     <div class="imgNosotros"></div>
-    <div class="boxContacto">
-        <form action="#" class="box_form">
-            <input class="input_nombre input_hover" type="text" name="nombre" placeholder="Nombre"><br>
-                <input  class="input_telefono input_hover" type="text" name="telefono" placeholder="Teléfono"><br>
-                <input  class="input_email input_hover" type="text" name="email" placeholder="Email"><br>
-                <div>
-                    <textarea class="textArea input_hover" name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <input class="boton boton_hover" type="submit" value="Enviar">
-        </form>
+    <div class="boxContacto" id="seccion_contacto">
         <div class="box_textos_contacto">
             <h2 class="text_contacto">CONTACTO</h2>
             <h3 class="text_contacto2">Si tenes alguna duda, problema con algun producto, si queres consultar precios al por mayor, o cualquier otra cosa, contactate con nosotros!</h3>
             <h3 class="text_contacto3">info@suplementosB.com</h3>
             <h3 class="text_contacto4"> tel: 914 152 677</h3>
         </div>
+        <form action="#" class="box_form">
+            <input class="input input_hover" type="text" name="nombre" placeholder="Nombre"><br>
+                <input  class="input input_hover" type="text" name="telefono" placeholder="Teléfono"><br>
+                <input  class="input input_hover" type="text" name="email" placeholder="Email"><br>
+                <div>
+                    <textarea class="textArea input_hover" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <input class="boton boton_hover" type="submit" value="Enviar">
+        </form>
     </div>
     <div class="boxComunidad">
         <h2 class="titulo_comunidad">UNITE A NUESTRA COMUNIDAD </h2>
