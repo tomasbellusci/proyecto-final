@@ -1,0 +1,65 @@
+@media (min-width: 1024px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .contenedor_anabolicos{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows:  120px 1000px 400px;
+    }
+
+    .header_anabolicos{
+        grid-area: header;
+        position: fixed;
+        width: 100%;
+        
+    }
+
+    .main_anabolicos{
+        grid-area: main;
+        background-color: black;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_anabolicos{
+        grid-area: footer;
+    }
+
+/*¨FIN GRIDS-----------------------------------------*/ 
+
+.main_anabolicos a{
+    text-decoration: none;
+}
+
+.titulo_anabolicos{
+    font-size: 70px;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.img_anabolicos{
+    height: 190px;
+    width: 190px;
+    border: solid 3px orange;
+}
+
+
+
+
+
+}

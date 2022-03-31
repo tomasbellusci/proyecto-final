@@ -23,9 +23,6 @@
         background-color: #444444de;
         display: flex;
         justify-content:space-evenly;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
         box-shadow: 2px 2px 10px 2px black;
     }
     
@@ -298,13 +295,17 @@
         display:none; 
         transition: all .5s;
         font-size: 50px;
-        color: white;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.541);
         margin-left: 100px;
         margin-right: 100px;
         font-style: italic;
+    }
+
+    figcaption a{
+        text-decoration: none;
+        color: white;
     }
     
     .boxSuplementos:hover > figcaption {

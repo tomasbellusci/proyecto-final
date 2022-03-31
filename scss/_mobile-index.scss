@@ -219,6 +219,10 @@ figcaption{
     font-style: italic;
 }
 
+figcaption a{
+    text-decoration: none;
+    color: white;
+}
 
 .boxQuimica:hover{
     border: solid 3px #EEEEEE;
@@ -364,6 +368,7 @@ figcaption{
     bottom: 30px;
     text-indent: 75px;
     font-size: 15px;
+    color: white;
 }
 
 .unirse_comunidad{

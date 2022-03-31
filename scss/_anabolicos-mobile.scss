@@ -1,0 +1,117 @@
+@media (max-width: 844px){
+    
+    .contenedor_anabolicos{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 800px 300px;
+    }
+    
+    .header_anabolicos{
+        grid-area: header;
+    }
+    
+    .main_anabolicos{
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .footer_anabolicos{
+        grid-area: footer;
+    }
+    
+    /*FIN GRIDS------------------------------------*/
+    
+    .contenedor_catalogo{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulo_anabolicos{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    .carta{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+
+    .contenedor_catalogo a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .img_anabolicos{
+        height: 130px;
+        width: 130px;
+        border: solid 3px orange;
+    }
+    
+    .interaccion{
+        font-size: 15px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .footer_estilo{
+        background-color: black;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo_comunidad{
+        font-size: 25px;
+    }
+
+    .subtitulo_comunidad{
+        font-size: 15px;
+    }
+
+.form_comunidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .mail_comunidad{
+        height: 20px;
+    }
+
+    .unirse_comunidad{
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .icono_rss{
+        height: 20px;
+        width: 20px;
+        margin: 0px 10px;
+    }
+
+    .icono_chat{
+        height: 35px;
+        width: 35px;
+        position: relative;
+        top: 20px;
+        left: 200px;
+    }
+}

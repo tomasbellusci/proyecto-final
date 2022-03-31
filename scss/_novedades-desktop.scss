@@ -1,0 +1,249 @@
+@media (min-width: 1024px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+
+.contenedor_novedades{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 1300px 400px;
+}
+
+.header_novedades{
+    grid-area: header;
+}
+
+.main_novedades{
+    grid-area: main;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_novedades{
+    grid-area: footer;
+}
+
+/*¨FIN GRIDS-----------------------------------------*/
+
+
+
+.box_tit_nov{
+    width: 40%;
+    height: 120px;
+    position: relative;
+    top: 60px;
+    right: 480px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit_nov{
+    color:white;
+    font-size: 80px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+
+.box_tit_nov2{
+    width: 40%;
+    height: 120px;
+    position: relative;
+    top: 10px;
+    right: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tit_nov2{
+    color: orange;
+    font-size: 60px;
+    font-family:'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+
+.contenedor_art{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to top, white, black);
+}
+
+.carta_nov{
+    width: 400px;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_img_nov{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+}
+
+.contenedor_nom_art{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.nom_art{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.cont_precio{
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.precio_art{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom:20px ;
+}
+
+.cont_carrito{
+    border: solid 1px white;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    bottom: 25px;
+    border-radius: 20px;
+    background-color: orange;
+    border: solid 1px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.añadir_car_nov{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.cont_carrito:hover{
+    cursor: pointer;
+    background-color: rgb(199, 131, 5);
+    border: solid 1px  rgb(199, 131, 5);
+}
+
+
+.img3{
+    height: 250px;
+    width: 250px;
+}
+
+.cont_seccion{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cont_texto{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h3{
+    color: orange;
+}
+
+section span{
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.position_span{
+    position: relative;
+    right: 85px;
+}
+
+.envios_txt{
+    font-size: 70px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 140px;
+}
+
+
+.position_txt{
+    position: relative;
+    right: 90px;
+}
+
+.position_txt2{
+    position: relative;
+    right: 165px;
+}
+
+.cont_sello{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_sello span {
+    margin-top: 10px;
+}
+
+
+}
